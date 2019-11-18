@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+#Ind {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  header {
+    width: 100%;
+    height: 50px;
+  }
+  .content {
+    flex: 1;
+  }
+}
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  .h3 {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      color: #ffa800;
+    }
+  }
+  div {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+      width: 100%;
+      height: 25px;
+      border-radius: 10px;
+      border: 0;
+      background: #ccc;
+    }
+  }
+  span {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffa800;
+    font-size: 14px;
+  }
+}
+.swiper-container {
+  width: 100%;
+  height: 210;
+  .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    .swiper-slide {
+      width: 100%;
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+.icon {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-wrap: wrap;
+  .a1 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .s1 {
+      width: 45px;
+      height: 45px;
+      background: #ffa800;
+      border-radius: 20px;
+    }
+  }
+}
+.tui {
+  width: 100%;
+  height: 34px;
+  background: #f8f8f8;
+  color: #999999;
+  p {
+    text-align: center;
+    line-height: 30px;
+  }
+}
+.news {
+  width: 100%;
+  height: 155px;
+  border-bottom: 1px solid #ccc;
+  .newsshang {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 11px;
+      font-size: 18px;
+    }
+  }
+  .newsxia {
+    display: flex;
+    width: 100%;
+    height: 115px;
+    .imgdiv {
+      flex: 4;
+      width: 130px;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 11px;
+      img {
+        width: 130px;
+        height: 90px;
+      }
+    }
+    .textdiv {
+      flex: 6;
+    }
+  }
+}
