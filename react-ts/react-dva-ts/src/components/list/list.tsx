@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import { listface } from "../../constans/type";
+// import { connect } from "dva";
 export default class list extends Component {
   state: listface = {
     list: [],
@@ -9,13 +10,15 @@ export default class list extends Component {
   _getlist(pageSize: number = this.state.pageSize, pageCount: number = 3) {
     axios.post("/getnewslist", { pageSize, pageCount }).then(res => {
       this.setState({
-        list: [...this.state.list, ...res.data.result]
+        // list: [...this.state.list, ...res.data.result]
+        list: res.data.result
       });
     });
   }
   componentDidMount() {
     this._getlist();
   }
+
   render() {
     const { list } = this.state;
     return (

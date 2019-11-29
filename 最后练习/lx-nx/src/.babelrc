@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": ["antd-mobile", "antd"],
+        "libraryDirectory": "es",
+        "style": "css"
+      }
+    ], // `style: true` 会加载 less 文件
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ]
+  ]
+}

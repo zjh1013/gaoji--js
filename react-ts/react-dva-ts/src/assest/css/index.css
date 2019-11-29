@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   touch-action: none;
+  box-sizing: border-box;
 }
 
 html,
@@ -141,4 +142,45 @@ body,
 
 .news .newsxia .textdiv {
   flex: 6;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.shop {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+}
+
+.shop b {
+  padding-left: 20px;
+}
+
+.shop div {
+  float: right;
+}
+
+.shop button {
+  float: right;
+}
+
+.ding {
+  width: 50px;
+  height: 50px;
+  background: chartreuse;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.aa {
+  width: 100%;
+  height: 600px;
+  position: relative;
 }

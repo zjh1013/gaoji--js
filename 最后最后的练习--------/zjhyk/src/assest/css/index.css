@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 44px;
+  background: indianred;
+  display: flex;
+}
+
+.header h2 {
+  width: 100%;
+  text-align: center;
+  line-height: 44px;
+  color: ivory;
+}
+
+.zong {
+  width: 100%;
+  height: 44px;
+  display: flex;
+}
+
+.zong span {
+  flex: 1;
+  line-height: 44px;
+  text-align: center;
+}
+
+.city {
+  width: 100%;
+  height: 100px;
+  background: chartreuse;
+  margin-top: 10px;
+}
+
+.ding {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background: #26d117;
+  border-radius: 50%;
+}
+
+.da {
+  width: 100%;
+  height: 500px;
+  background: chartreuse;
+  display: flex;
+  overflow: hidden;
+}
+
+.da .zuo {
+  width: 120px;
+  height: 100%;
+  background: cornflowerblue;
+}
+
+.da .zuo ul {
+  width: 100%;
+}
+
+.da .zuo ul li {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.da .you {
+  overflow: hidden;
+  flex: 1;
+  height: 100%;
+  background: crimson;
+}
+
+.da .you h2 p {
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+.ac {
+  color: #fff;
+  background: chocolate;
+}

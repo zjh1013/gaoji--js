@@ -12,3 +12,9 @@ export interface bannerface {
   imgHeight: number;
   slideIndex: number;
 }
+
+export interface lxface {
+  list: any[];
+  pageSize: number;
+  val: string;
+}

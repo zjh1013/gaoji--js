@@ -8,6 +8,10 @@ export function geticonlist() {
   const url = "/geticonlist";
   return axios.get(url);
 }
+export function getshoplist() {
+  const url = "/getshoplist";
+  return axios.get(url);
+}
 
 export function getlist(pageSize: number, pageCount: number) {
   const url = "/getlist";
